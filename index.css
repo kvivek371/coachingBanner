@@ -1,0 +1,184 @@
+body{
+    margin: 0px;
+}
+
+.offerDiv{
+    font-weight: bolder;
+    font-size: 30px;
+    background: linear-gradient(
+        to right,
+        red,
+        green,
+        yellow
+    );
+    text-align: center;
+    text-decoration: underline;
+}
+
+ul{
+    text-align: center;
+}
+
+.homeDiv{        
+    border: 5px groove red;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(168, 209, 224);
+    border-radius: 10px;
+    margin: 15px 200px 15px 200px;
+    box-sizing: border-box;
+    padding: 0px 500px 0px 500px;
+}
+
+.loremDiv{
+    display: flex;    
+    border: 2px groove purple;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: aquamarine;
+    justify-content: space-evenly;
+}
+
+.itemLorem{
+    background-color: skyblue;
+    border: 3px groove green;
+    border-radius: 5px;
+}
+
+.item1{
+    width: 400px;
+    height: 100px;
+    padding-top: 20px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.item2{
+    border-style: none;
+}
+
+.item2div{
+    border: 2px groove green;
+    border-radius: 5px;
+    width: 400px;
+    height: 100px;
+    padding-top: 20px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.item3{
+    width: 400px;
+    height: 100px;
+    padding-top: 20px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.performerHead{
+    text-align: center;
+    background: linear-gradient(
+        to right,
+        red,
+        yellow,
+        red
+    );
+    font-weight: bolder;
+    font-size: 20px;
+    padding-bottom: 15px;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+.topNameDiv{
+    margin-top: 20px;
+    border: 3px groove green;
+    background: radial-gradient(
+        lightgreen,
+        rgb(95, 95, 207),
+        lightgreen
+    );
+   
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+}
+
+.name1{
+    border: 2px groove red;
+    background-color: yellow;
+    width: 300px;
+    height: 120px;
+    box-sizing: border-box;
+    margin-top: 70px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: underline;
+    color: rgb(148, 9, 9);
+}
+
+.gridContainer{
+    border: 2px groove black;
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    border: 1px groove black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ 
+.bestPlaceDiv{
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    grid-column: 1 / 5;
+    text-align: center;
+    
+}
+
+.doubtDiv{
+    background-color: lightgreen;
+    color: white;
+    font-size: 25px;
+}
+
+.discountDiv{
+    background-color: rgb(16, 163, 212);
+    color: white;
+    font-size: 25px;
+}
+
+.assureDiv{
+    background-color: rgb(199, 27, 199);
+    color: white;
+    font-size: 25px;
+}
+
+.sideBarDiv{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    grid-column: 4/5;
+    grid-row: 2 / 4;
+    text-decoration: underline;
+}
+
+.loremDiv1{
+    background-color: orange;
+    color: white;
+    font-size: 25px;
+    grid-column: 1 /4;
+}
+
+.greetDiv{
+    background-color: rgb(103, 191, 221);
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+    grid-column: 1/5;
+    text-align: center;
+} 
